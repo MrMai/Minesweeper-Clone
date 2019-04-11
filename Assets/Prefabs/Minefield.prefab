@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4119370754491504265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4119370754491504267}
+  - component: {fileID: 4119370754491504264}
+  m_Layer: 0
+  m_Name: Minefield
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4119370754491504267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4119370754491504265}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4119370754491504264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4119370754491504265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15cae5c60b6f30f4aabe337098faa9a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 0}
+  mapW: 20
+  mapH: 20
+  mineFrequency: 0.5
+  sprites:
+  - {fileID: 21300004, guid: 7c5020378016142d89a74b18346d7c63, type: 3}
+  - {fileID: 21300020, guid: 7c5020378016142d89a74b18346d7c63, type: 3}
+  - {fileID: 21300018, guid: 7c5020378016142d89a74b18346d7c63, type: 3}
+  - {fileID: 21300016, guid: 7c5020378016142d89a74b18346d7c63, type: 3}
+  - {fileID: 21300014, guid: 7c5020378016142d89a74b18346d7c63, type: 3}
+  - {fileID: 21300012, guid: 7c5020378016142d89a74b18346d7c63, type: 3}
+  - {fileID: 21300010, guid: 7c5020378016142d89a74b18346d7c63, type: 3}
+  - {fileID: 21300008, guid: 7c5020378016142d89a74b18346d7c63, type: 3}
+  - {fileID: 21300006, guid: 7c5020378016142d89a74b18346d7c63, type: 3}
+  - {fileID: 21300000, guid: 7c5020378016142d89a74b18346d7c63, type: 3}
+  - {fileID: 21300002, guid: 7c5020378016142d89a74b18346d7c63, type: 3}
+  tile: {fileID: 8610699604482040216, guid: 1879fefb5e7336a4baff14f5b7b81fec, type: 3}
